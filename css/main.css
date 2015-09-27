@@ -395,3 +395,143 @@ footer p {
 footer p a:hover {
 	color: #69c;
 }
+
+/*================
+
+Media Queries
+
+=================*/
+
+@media (max-width: 1095px) {
+	.apps {
+		width: 80%;
+	}
+}
+
+@media (max-width: 829px) {
+	.apps {
+		width: 100%;
+	}
+}
+
+@media (max-width: 669px) {
+	header {
+		width: 50%;
+	}
+	header h1 {
+		font-size: 48px;
+	}
+	.apps {
+		width: 60%;
+		display: block;
+	}
+	.apps a {
+		margin-bottom: 20px;
+		left: 75px;
+	}
+}
+
+@media (max-width: 592px) {
+	nav {
+		height: 150px;
+	}
+	nav ul {
+		float: none;
+		text-align: center;
+	}
+	nav li {
+		display: block;
+		margin: 5px auto;
+	}
+	header {
+		width: 50%;
+	}
+	header h1 {
+		font-size: 30px;
+	}
+	header p {
+		font-size: 15px;
+	}
+	.apps {
+		width: 60%;
+		display: block;
+	}
+	.apps a {
+		margin:10px auto;
+		left: 25px;
+	}
+	.millions {
+		width: 55%;
+	}
+	.millions h2 {
+		font-size: 30px;
+	}
+	.millions p {
+		font-size: 15px;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.millions img,
+	.photo,
+	#arrow,
+	#trusted {
+		display: none;
+	}
+	.description {
+		width: 95%
+	}
+	.description h2 {
+		font-size: 35px;
+
+	}
+	.des1,
+	.des2 {
+		float: none;
+		width: auto;
+		margin-bottom: -20px;	
+	}
+	.description h1 {
+		font-size: 40px;
+	}
+	.description h4 {
+		text-align: center;
+		font-size: 15px;
+	}
+	.description p {
+		height: 125px;
+		width: auto;
+		margin-left: 40px;
+	}
+	.reWork {
+		width: 50%;
+	}
+	.reWork h2 {
+		font-size: 30px;
+	}
+	.reWork div a img {
+		width: 250px;
+		margin-left: -30px;
+	}
+	.reWork div p em {
+		font-size: 15px;
+	}
+	#anotherArrow,
+	.trash {
+		display: none;
+	}
+	.Offer {
+		width: 50%;
+	}
+	.Offer h1 {
+		font-size: 30px;
+	}
+	.Offer a {
+		left: 0;
+		margin: 30 auto;
+	}
+	.Offer .service,
+	.Offer .Books {
+		margin: 0 auto;
+		width: auto;
+	}
+}
